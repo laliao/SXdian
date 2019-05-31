@@ -1,0 +1,131 @@
+body{
+    background:#FEFEFE;
+
+}
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:-webkit-linear-gradient(left,#FF3333 55%,#FF7A18);
+    background:linear-gradient(left,#ff3333,#ff7a18);
+    text-align: center;
+    line-height:0.88rem;
+    font-size:0.36rem;
+    color:white;
+    font-weight:bold;
+    position: fixed;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+}
+.header .iconfont{
+    font-size:0.4rem;
+    color:white;
+    position: absolute;
+    left:0.24rem;
+    top:0.06rem;
+
+}
+/*地址快*/
+.dz{
+    height:3.2rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.88rem;
+}
+.dz .top{
+    height:0.96rem;
+    width:7.02rem;
+    padding:0 0.1rem;
+    box-sizing:border-box; 
+    display:flex;
+    justify-content:space-between;
+}
+.dz .top .left{
+    height:0.96rem;
+    width:2.06rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.dz .top .left .yuan{
+    height:0.24rem;
+    width:0.24rem;
+    background:#D3D3D3;
+    border-radius:0.2rem;
+    border:0.06rem solid #f8f7f7;
+    box-shadow:0 0.06rem 0.16rem 0.01rem #eaeaea; 
+}
+.dz .top .left p{
+    font-size:0.36rem;
+    color:#ff4f40;
+}
+.dz .top .right{
+    height:0.96rem;
+    width:0.98rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.dz .top .right .iconfont{
+    font-size:0.34rem;
+    color:#fc6a6a;
+}
+
+
+.dz .bo{
+    height:2.26rem;
+    width:7.02rem;
+    padding-left:0.4rem;
+    box-sizing:border-box;
+    border-radius:0.08rem;
+    box-shadow:0 0 0.16rem 0.01rem #ffe9e6; 
+    overflow: hidden;
+
+}
+.dz .bo p{
+    height:1.02rem;
+    width:4.74rem;
+    color:black;
+    font-size:0.36rem;
+    line-height:0.5rem;
+    margin-top:0.2rem;
+}
+.dz .bo pre{
+    height:0.30rem;
+    width:4.74rem;
+    color:#999;
+    font-size:0.26rem;
+    margin-top:0.08rem;
+
+}
+
+
+/*新增收货地址*/
+.xz{
+    height:0.88rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.54rem;
+}
+.xz .xzd{
+    height:0.88rem;
+    width:3.6rem;
+    border-radius: 4rem;
+    background:-webkit-linear-gradient(left,#FF3333,#FF7A18);
+    background:linear-gradient(left,#ff3333,#ff7a18);
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.88rem;
+    color:white;
+    font-size:0.4rem;
+    margin:0 auto;   
+}
+

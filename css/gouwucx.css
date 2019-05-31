@@ -1,0 +1,17 @@
+@import "gouwuc.css";
+.gk .cent .left .yuan .box1{
+    background:#FF5726;
+}
+.xuanz .left .yuan .box1{
+    background:#FF5726;
+}
+.zongji .center .left .zong{
+    color:#FF3433;
+}
+.zongji .center .left .zong span{
+    color:#FF3433;
+}
+.zongji .center .right{
+    opacity: 1;
+}
+

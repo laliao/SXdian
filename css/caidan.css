@@ -1,0 +1,215 @@
+body{
+    background:#FEFEFE;
+
+}
+/*头部*/
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:-webkit-linear-gradient(left,#FF3333 55%,#FF7A18);
+    background:linear-gradient(left,#ff3333,#ff7a18);
+    text-align: center;
+    line-height:0.88rem;
+    font-size:0.36rem;
+    color:white;
+    font-weight:bold;
+    position: fixed;
+    top:0;
+    left:0;
+}
+/*tab*/
+.footer{
+    width:7.5rem;
+    height:0.98rem;
+    padding:0 0.24rem;
+    border-top:0.01rem solid #D7D7D7;
+    box-sizing: border-box;
+    position: fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-around;
+    background:#FEFEFE;
+
+}
+.footer .box{
+    height:0.98rem;
+    width:1rem;
+
+}
+.footer .box a{
+    display:block;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    
+}
+.footer .box .iconfont{
+    font-size:0.44rem;
+    color:#989898;  
+  /*  text-align: center;*/
+
+}
+.footer .box .text{
+    font-size:0.18rem;
+    color:#4C4C4C;
+
+   /* text-align:center;*/}
+
+
+
+/*导航*/
+.daoh{
+    height:0.9rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content:center;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:0.88rem;
+
+}
+.daoh .wai{
+  height:0.5rem;
+  width:auto;
+  font-size:0.28rem;
+  display:block;
+  box-sizing:border-box;
+  margin-top:0.16rem;
+}
+.daoh .wai .tiao{
+    width:0.36rem;
+    height:0.04rem;
+    display: block;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    margin-left:0.08rem;
+ margin-top:0.06rem;
+}
+.daoh .wai a{
+    color:#7F7F7F;
+    display:block;
+}
+.daoh .wai:hover a{
+    color:#FF5751;
+}
+.daoh .wai:hover .tiao{
+    background-color:#FF5751;
+
+}
+.daoh .w1 .tiao{
+    background-color:#FF5751;
+ 
+}
+.daoh .w1 a{
+    color:#FF5751;
+}
+
+/*块*/
+.kuai{
+    height:2.3rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.24rem;
+    background-color:white;
+    
+}
+.kuai .li{
+    height:2.3rem;
+    width:7.02rem;
+    box-sizing:border-box;
+    background-color:white;
+    border-radius:0.2rem;
+    box-shadow:0 0 0.24rem 0.02rem #FFF3EF;
+    display:flex;
+    box-sizing: border-box;
+    position: relative;
+}
+.kuai .li a{
+    display:block;
+    
+}
+.kuai .li .left{
+    height:1.96rem;
+    width:3.14rem;
+    margin-left:0.22rem;
+    border-radius: 0.16rem;
+    margin-top:0.18rem;
+    overflow: hidden;
+    background: red;
+}
+.kuai .li .left img{ 
+    height:1.96rem;
+    width:3.14rem;
+}
+
+.kuai .li .right{
+    height:1.52rem;
+    width:3.36rem;
+    background: white;
+    margin-left:0.16rem;
+    margin-top:0.48rem;
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    justify-content:space-between;
+    box-sizing: border-box;
+
+}
+.kuai .li .right .name{
+    font-size:0.3rem;
+    color:#191919;
+}
+.kuai .li .right .jies{
+    font-size:0.18rem;
+    color:#cccccc;
+    margin-top:-0.08rem;
+}
+.kuai .li .right .price{
+    font-size:0.18rem;
+    color:#ff4c45;
+    margin-top:0.02rem;
+}
+.kuai .li .right .price span{
+    font-size:0.26rem;
+    color:#ff4c45;
+   
+}
+.kuai .li .right .shou{
+    font-size:0.20rem;
+    color:#cccccc;
+    margin-top:0.06rem;
+}
+.kuai .li .tubiao{
+    width:0.6rem;
+    height:0.6rem;
+    background:white;
+    border-radius:4rem;
+    box-shadow: 0px 7px 32px 0px 
+    rgba(251, 91, 33, 0.18);
+
+   /* box-shadow:0 0 0.24rem 0.02rem #FFF3EF;*/
+    position: absolute;
+    bottom:0.16rem;
+    right:0.16rem;
+    display: flex;
+    justify-content:center;
+    justify-items:center;
+    text-align: center;
+
+}
+.kuai .li .tubiao i{
+   /* color:-webkit-linear-gradient(bottom,#FF3333 55%,#FF7A18);
+    color:linear-gradient(bottom,#ff3333,#ff7a18);*/
+    font-size:0.38rem;
+    color:#ff3333;
+  /*  margin-top:0.12rem;-*/
+    line-height:0.6rem;
+}

@@ -1,0 +1,151 @@
+@import "index.css";
+
+/*购物车空*/
+.kong{
+   height:5.2rem;
+   width:7.5rem;
+   padding:0 0.24rem;
+   box-sizing: border-box;
+   margin-top:0.88rem;
+   display: flex;
+   justify-content:center; 
+   align-items:flex-end; 
+}
+.kong .box{
+    height:5.2rem;
+    width:7.02rem;
+    border-radius: 0.2rem;
+    background: white;
+    box-sizing: border-box;
+    box-shadow:0 0 0.24rem 0.02rem #FFF3EF;  
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+
+}
+.kong .box img{
+    height:3.4rem;
+    width:auto;
+    display: block;
+
+}
+.kong .box .zi{
+    font-size:0.28rem;
+    color:#B2B2B2;
+    margin-top:0.3rem;
+}
+/*推荐*/
+.tuijian{
+    height:5.46rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    margin-top:0.2rem;
+    
+    box-shadow:0 0 0.24rem 0.02rem #FFF3EF;
+}
+.tuijian .top{
+    height:0.64rem;
+    width:7.02rem;
+    background: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:start;  
+}
+.tuijian .top .b{
+    height:0.64rem;
+    width:0.64rem;
+    border-radius:0.4rem;
+    background: #dc341e;
+    text-align: center;
+    margin:0.24rem 0.2rem 0.2rem 0;
+}
+.tuijian .top .b .iconfont{
+    color:white;
+    font-size:0.34rem;
+    line-height: 0.64rem;
+}
+
+.tuijian .top p{
+    color:#333;
+    font-size:0.34rem;
+    line-height: 0.64rem;
+    margin:0.24rem 0 0 0;
+}
+.tuijian .kua{
+    width:7.02rem;
+    height:auto;
+    box-sizing: border-box;
+    overflow:auto;
+  
+}
+.tuijian .kua .bottom{
+    width:auto;
+    height:auto;
+    display: flex;
+    
+}
+.tuijian .kua::-webkit-scrollbar{
+    display:none;
+    /*width:0;
+    height:0;*/
+}
+.tuijian .kua .bottom .box{
+    width:2.6rem;
+    height:4.2rem;
+    margin-top:0.42rem;
+    position: relative;
+}
+.tuijian .kua .bottom .box .tu{
+    width:2.6rem;
+    height:3.08rem;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+.tuijian .kua .bottom .box .tu img{
+    position: absolute;
+    width: 2.86rem;
+    left:0;
+    top:0rem;
+}
+.tuijian .kua .bottom .box .ming{
+    color:#4c4c4c;
+    font-size:0.3rem;
+    margin-top:0.08rem;
+}
+.tuijian .kua .bottom .box .jia{
+    color:#ff4c45;
+    font-size:0.2rem;
+    margin-top:0.08rem;
+}
+.tuijian .kua .bottom .box .jia span{
+    color:#ff4c45;
+    font-size:0.3rem;
+}
+
+.tuijian .kua .bottom .box .biao{
+    width:0.6rem;
+    height:0.6rem;
+    background:white;
+    border-radius:4rem;
+    box-shadow: 0 0 0.2rem 0.02rem #FFF3EF;
+position: absolute;
+bottom:0.16rem;
+right:0.16rem;
+text-align: center;
+}
+.tuijian .kua .bottom .box .biao i{
+    line-height:0.6rem;
+    font-size:0.38rem;
+    color:#ff3b30;
+}
+
+
+
+
+
+
+

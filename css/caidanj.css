@@ -1,0 +1,52 @@
+@import "caidan.css";
+
+.kuai .li .jiaj{
+    height:0.8rem;
+    width:1.2rem;
+    box-sizing:border-box; 
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position: absolute;
+    bottom:0;
+    right:0.2rem;
+
+}
+.kuai .li .jiaj .box{
+    height:0.38rem;
+    width:0.38rem;
+  border-radius:0.4rem;
+  background: #fff;
+  box-shadow:0 0 0.24rem 0.02rem #FFF3EF;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.kuai .li .jiaj .box .iconfont{
+    font-size:0.2rem;
+    color:#FF4C45;
+    font-weight:bold;
+}
+.kuai .li .jiaj span{
+    color:#ff4c45;
+    font-size: 0.3rem;
+    font-weight:bold; 
+}
+/*底部*/
+.footer .box1 .biao{
+    width:0.28rem;
+    height:0.28rem;
+    background:#FF0000;
+    border-radius:0.3rem;
+    box-shadow:0 0.04rem 0.1rem 0.01rem #FECAB8;
+    position: absolute;
+    bottom:0.64rem;
+    right:2.46rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.2rem;
+    color:white;
+}
+
+

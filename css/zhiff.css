@@ -1,0 +1,97 @@
+body{
+    background:#FEFEFE;
+
+}
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:-webkit-linear-gradient(left,#FF3333 55%,#FF7A18);
+    background:linear-gradient(left,#ff3333,#ff7a18);
+    text-align: center;
+    line-height:0.88rem;
+    font-size:0.36rem;
+    color:white;
+    font-weight:bold;
+    position: fixed;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+}
+.header .iconfont{
+    font-size:0.4rem;
+    color:white;
+    position: absolute;
+    left:0.24rem;
+    top:0.06rem;
+
+}
+
+/*选择块*/
+.bao{
+    height:7.5rem;
+    height:1.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin:1.16rem auto 0.32rem;
+}
+.xuanz{
+    width:7.02rem;
+    height:1.5rem;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 0 0.2rem 0.02rem #ffe9e6;
+    border-radius:0.14rem;
+    padding:0 0.3rem;
+}
+.xuanz .l{
+    width:2rem;
+    height:1.5rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.xuanz .l .w{
+    font-size: 0.3rem;
+    color:#4c4c4c;
+}
+.xuanz .l .iconfont{
+    font-size: 0.78rem;
+    color:#00c800;
+}
+.xuanz .r{
+    width:0.2rem;
+    height:0.2rem;
+    border:0.1rem solid #fff;
+    background: #ff5726;
+    box-shadow:0 0.08rem 0.16rem 0.01rem #e4e4e4;
+    border-radius: 1rem;
+}
+
+/*确认支付*/
+.xz{
+    height:0.86rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.54rem;
+}
+.xz .xzd{
+    height:0.86rem;
+    width:3.7rem;
+    border-radius: 4rem;
+    background:-webkit-linear-gradient(left,#FF3333 55%,#FF7A18);
+    background:linear-gradient(left,#ff3333,#ff7a18);
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.86rem;
+    color:white;
+    font-size:0.4rem;
+    margin:0 auto;   
+}
