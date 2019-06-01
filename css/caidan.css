@@ -152,7 +152,7 @@ body{
 
 .kuai .li .right{
     height:1.52rem;
-    width:3.36rem;
+    width:55%;
     background: white;
     margin-left:0.16rem;
     margin-top:0.48rem;
@@ -168,7 +168,7 @@ body{
     color:#191919;
 }
 .kuai .li .right .jies{
-    font-size:0.18rem;
+    font-size:0.16rem;
     color:#cccccc;
     margin-top:-0.08rem;
 }
